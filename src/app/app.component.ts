@@ -10,7 +10,7 @@ export class AppComponent {
   menuOpened = false;
 
   listTitles = [{
-    trailer: 'assets/videos/trailer_guardioes_da_galaxia_1080p.mp4',
+    trailer: '../../../assets/videos/trailer_guardioes_da_galaxia_1080p.mp4',
     cover: 'assets/images/guardios-da-galaxia.jpg',
     name: 'Guardiões da Galaxia',
     relevance: 98,
