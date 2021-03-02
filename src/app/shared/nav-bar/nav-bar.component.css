@@ -30,6 +30,10 @@
     padding-right: 0;
 }
 
+.navbar img {
+    height: 34px;
+}
+
 @media (min-width: 576px) {
     
     .navbar .form-control {
