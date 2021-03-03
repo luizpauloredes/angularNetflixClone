@@ -17,11 +17,12 @@ export class TitleComponent implements OnInit {
   }
 
   playVideo() {
-    this.trailer.nativeElement.currentTime = 0;
+    
     this.trailer.nativeElement.play()
   }
 
   stopVideo() {
+    this.trailer.nativeElement.currentTime = 0;
     this.trailer.nativeElement.pause()
   }
 
