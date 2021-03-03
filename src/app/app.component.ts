@@ -19,9 +19,9 @@ export class AppComponent {
     categories: ['Épico', 'Filme de fantasia', 'Viagem no espaço']
   },
   {
-    trailer: 'assets/videos/trailer_guardioes_da_galaxia_1080p.mp4',
-    cover: 'assets/images/guardios-da-galaxia.jpg',
-    name: 'Guardiões da Galaxia 2',
+    trailer: '../../../assets/videos/capitao_america_guerra_civil_1080p.mp4',
+    cover: 'assets/images/capitao-america-o-primeiro-vingador.jpg',
+    name: 'Capitão America',
     relevance: 80,
     age: 0,
     parts: 2,

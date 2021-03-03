@@ -25,4 +25,12 @@ export class TitleComponent implements OnInit {
     this.trailer.nativeElement.pause()
   }
 
+  getMuted(): boolean {
+    return this.trailer.nativeElement.muted;
+  }
+
+  toggleSound() {
+    this.trailer.nativeElement.muted = !this.trailer.nativeElement.muted;
+  }
+
 }
